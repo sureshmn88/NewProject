@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="data"
+            type="com.sisar.youtubeapi.adapter.SliderAdapter" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#eeeff2">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:transitionName="@string/trans_image"
+            android:visibility="gone"
+            android:background="#eeeff2"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:id="@+id/videoView"
+            android:src="@drawable/ic_like"
+            android:visibility="visible"
+            android:transitionName="@string/trans_image"
+            android:layout_centerInParent="true"
+            android:layout_width="@dimen/_45sdp"
+            android:layout_height="@dimen/_45sdp" />
+
+    </RelativeLayout>
+
+</layout>

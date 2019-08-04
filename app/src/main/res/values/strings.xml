@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">YoutubeApi</string>
+    <string name="sample_large_text">Lorem Ipsum is simply of the printing</string>
+    <string name="sample_large_x_text">Lorem Ipsum has been the industry. Lorem Ipsum is simply dummy  industry.</string>
+    <string name="sample_large_xx_text">Lorem Ipsum has been the industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</string>
+    <string name="trans_feed">feed</string>
+    <string name="trans_image">t_image</string>
+</resources>
